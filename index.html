@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="./resources/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo-app">
+                <header>
+                     <h1>TO DO LIST</h1>
+                </header>
+                <div id="task-input-box">
+                    <input type="text" name="task-name" id="task-name" placeholder="Enter the task name" />
+                    <button id="add-button" type ="button" onclick="addTask()">Add Task</button>
+                </div>
+                <div id="task-list-box">
+                    <ul id="task-list" type="none">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="./resources/js/script.js"></script>
+    </body>
+</html>
